@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda personalizada</title>
+    <style>
+        h1 {
+            border: 20px solid rgb(0, 0, 0);
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+        }
+        /* você também pode usar uma shorthand para a borda personalizada, usando a propriedade border-image, que é uma forma mais compacta de escrever as propriedades de borda personalizada. Por exemplo = border-image: url('borda.png') 20 repeat; onde o primeiro valor é a URL da imagem da borda, o segundo valor é o tamanho da borda (em pixels) e o terceiro valor é a forma como a borda deve ser repetida (repeat, stretch ou round). */
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+         }
+         header {
+             background-color: rgb(252, 252, 252);
+             padding: 20px;
+             text-align: center;
+             width: 100%;
+             margin: 0px;
+         }
+    </style>
+</head>
+<body>
+    <h1>teste de borda</h1>
+</body>
+</html>

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cantata One", serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #F7CD16 400px, #242311);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.navegacao {
+    position: fixed;
+    background: rgba(15, 23, 42, 0.8);
+    justify-content: center;
+    width: 100%;
+    top: 0%;
+    z-index: 100;
+    padding: 1.5rem;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #F7CD16;
+    font-weight: 500;
+}
+
+main {
+    background-color: #F7CD16;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px rgba(0,0,0,0.77);
+}
+
+h1 {
+    text-shadow: 0px 0px 1px #000000
+}
+
+h3 {
+    text-shadow: 1px 0px 1px #000000
+}
+
+h4 {
+    text-shadow: 1px 0px 1px #000000
+}
+
+.roupas-titulo {
+    text-shadow: 0px 0px 1px #000000;
+    background: rgb(0, 0, 0);
+    color: #F7CD16;
+    border-radius: 0px;
+}
+
+div.roupas-vendas {
+     border: 3px solid #000000;
+        border-radius: 10px;
+        border-bottom: 7px solid #000000;
+}
+
+.joias-titulo {
+    text-shadow: 0px 0px 1px #000000;
+    background: rgb(0, 0, 0);
+    color: #F7CD16;
+    border-radius: 0px;
+}
+
+div.joias-vendas {
+     border: 3px solid #000000;
+        border-radius: 10px;
+        border-bottom: 7px solid #000000;
+}
+
+.contato-titulo {
+    border-radius: 0px;
+    font-weight: 600;
+}
+
+.contatos {
+    text-decoration: none;
+}

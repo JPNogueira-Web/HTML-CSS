@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'Gothic Valentine';
+        src: url('Fontes/Gothic Valentine PERSONAL USE ONLY!.ttf') format('truetype');
+    }
+    /*
+    Tipos de format nós temos:
+    - truetype (.ttf): é o formato mais comum e amplamente suportado pelos navegadores. .
+    - opentype (.otf): é um formato mais avançado que suporta recursos adicionais, como ligaduras e variações de peso. Ele é suportado por muitos navegadores modernos.
+    - woff (.woff): é um formato otimizado para a web, que é compactado e suporta recursos avançados. Ele é suportado por todos os navegadores modernos.
+    - woff2 (.woff2): é uma versão mais recente e otimizada do woff, com melhor compressão e desempenho. Ele é suportado por navegadores modernos.
+    -embedded OpenType (.eot): é um formato proprietário da Microsoft, usado principalmente para fontes em sites que precisam ser compatíveis com versões antigas do Internet Explorer. Ele é suportado apenas por navegadores da Microsoft.
+    -truetype-aat (.ttc): é um formato que permite agrupar várias fontes em um único arquivo, o que pode ser útil para reduzir o número de solicitações de arquivos em um site. Ele é suportado por alguns navegadores, mas não é tão amplamente utilizado quanto os outros formatos.
+    */
+    body {
+        font-family: Arial, Helvetica, sans-serif, Times, serif;
+    }
+    h1 {
+        font-family: 'Gothic Valentine', cursive;
+        font-size: 3em;
+        font-weight: normal;
+        }
+</style>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, doloribus, a vero autem perferendis ipsum similique officia veritatis molestias quae quo ducimus sapiente tempora praesentium excepturi pariatur consequuntur. Illo, ipsum.</p>
+    <!-- Sites para indentificar fontes de imagens: whatfontis.com e o myfonts -->
+</body>
+</html>

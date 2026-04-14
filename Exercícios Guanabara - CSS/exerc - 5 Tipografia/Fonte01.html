@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            /* medidas absolutas e medidas relativas:
+            as medidas absolutas são aquelas que não se adaptam ao tamanho da tela, como por exemplo: px, cm, mm, in (polegada), pt e pc. Já as medidas relativas são aquelas que se adaptam ao tamanho da tela, como por exemplo: em, rem, vw, vh e %.
+            16px é o valor padrão para a maioria dos navegadores, ou seja, se você não definir um tamanho de fonte, ele será 16px. 16px = 1em = 1rem. É RECOMENDADO USAR AS MEDIDAS px E em
+            */
+
+            font-size: 1em;
+
+            /* font-weight é a propriedade que define a espessura da fonte, os valores podem ser: normal, bold, bolder, lighter ou um número entre 100 e 900 (sendo 400 o normal e 700 o bold).
+            font-style é a propriedade que define o estilo da fonte, os valores podem ser: normal, italic e oblique. O valor italic é mais inclinado do que o oblique, mas ambos são usados para indicar ênfase em um texto.
+            
+            font-height é a propriedade que define a altura da linha, ou seja, o espaço entre as linhas de um texto. O valor normal é 1.2, o que significa que a altura da linha será 1.2 vezes o tamanho da fonte. O valor pode ser definido em unidades absolutas (px, cm, etc.) ou relativas (em, rem, %, etc.). O valor de font-height deve ser maior do que o tamanho da fonte para evitar que as linhas se sobreponham. 
+            
+            font-width é a propriedade que define a largura da fonte, os valores podem ser: normal, condensed, expanded ou um número entre 50% e 200% (sendo 100% o normal). O valor condensed é mais estreito do que o normal, enquanto o valor expanded é mais largo do que o normal. A propriedade font-width é usada para criar variações de largura em uma fonte, como por exemplo: negrito condensado ou negrito expandido.
+
+            Também é possível juntar todas as propriedades de fonte em uma única propriedade chamada font, que é uma forma abreviada de definir todas as propriedades de fonte em uma única linha. A sintaxe da propriedade font é: font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family]; Isso se chama shorthand.
+            */
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum nobis impedit ipsa molestias hic quod voluptas, voluptatum ullam debitis dolorem fugiat ad. Corporis aperiam asperiores aliquam, aliquid repudiandae veniam ratione.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores suscipit a facilis delectus temporibus, molestias odio aspernatur excepturi reprehenderit rerum tempore molestiae voluptatibus eaque architecto placeat consequuntur eum quod?</p>
+</body>
+</html>

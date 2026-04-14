@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* O id que está no HTML é identificado no CSS pela #, seguido do nome do id.
+Já a tag class é identificada pelo ponto (.) no CSS.*/
+
+body {
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(92, 46, 30);
+}
+
+#Principal {
+    text-align: center;
+    background-color: rgb(92, 46, 30);
+    color: white;
+}
+
+h2 {
+    color: rgb(180, 50, 3);
+}
+
+.basico {
+    color:blue;
+}
+
+.medio {
+    color:green;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(0, 255, 255, 0.514);
+}

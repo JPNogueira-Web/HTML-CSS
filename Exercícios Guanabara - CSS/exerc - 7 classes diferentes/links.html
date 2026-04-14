@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* 
+        :: = pseudo-elementos, são usados para adicionar conteúdo antes ou depois do conteúdo de um elemento, sem a necessidade de modificar o HTML.
+        : = pseudo-classes, são usadas para definir um estado especial de um elemento, como quando ele é visitado, quando o mouse está sobre ele, ou quando ele é o elemento ativo.
+        # = id
+        . = class
+        > = filho direto
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+       
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: lightseagreen;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgba(9, 102, 5, 0.582);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        a::before {
+            content: ">> ";
+            color: gray;
+        }
+        a::after {
+            content: " <<";
+            text-decoration: none;
+            font-size: 0.8em;
+            color: gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@alanzoka" target="_blank">Alanzoka</a></li>
+        <li><a href="https://www.youtube.com/@CellbitVODS" target="_blank">Cellbit</a></li>
+        <li><a href="https://www.youtube.com/@FlowSportClub" target="_blank">Flow sport club</a></li>
+    </ul>
+</body>
+</html>

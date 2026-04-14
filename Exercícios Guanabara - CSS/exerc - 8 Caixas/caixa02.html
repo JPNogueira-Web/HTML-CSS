@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groping tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+        }
+        header {
+            background-color: rgb(252, 252, 252);
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            margin: 0px;
+        }
+        nav {
+            background-color: lightgray;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        /* O primeiro número do box shadow é o deslocamento horizontal, o segundo número é o deslocamento vertical, o terceiro número é o desfoque e o quarto número é a cor da sombra. Dá para editala usando o dev tools do chrome. */
+        nav > a{
+            text-decoration: none;
+            margin: 10px;
+            color: black;
+             font-weight: bold;
+        }
+        nav > a:hover {
+            color: rgb(221, 153, 5);
+            text-decoration: underline;
+        }
+        main {
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.767);
+            margin: 10px;
+            color: wheat;
+            border-radius: 10px;
+             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        article {
+            background-color: rgb(221, 153, 5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        article > aside {
+            background-color: wheat;
+            color: rgb(221, 153, 5);
+            padding: 0px;
+            margin: 0px;
+            width: 180px;
+            border-radius: 10px;
+            text-align: center
+        }
+        footer {
+            background-color: rgb(252, 252, 252);
+            padding: 10px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        
+        div#bola {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            background-color: rgb(2, 14, 184);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Início</a>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícia 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur adipisci mollitia non quibusdam beatae in consequuntur blanditiis quod quas nihil minima, labore at hic laboriosam. Perspiciatis, vero deleniti. Deleniti, velit.</p>
+                <aside>
+                    <p>Autor: João Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por mim; João Pedro</p>
+    </footer>
+
+    <!-- Aqui nós aprendemos a usar as tags de agrupamento, como header, nav, main, section, article, aside e footer. Essas tags ajudam a organizar o conteúdo da página e a melhorar a semântica do HTML. O header é usado para o cabeçalho da página, o nav para a navegação, o main para o conteúdo principal, o section para seções específicas, o article para artigos ou notícias, o aside para informações adicionais e o footer para o rodapé da página. Isso ajuda a não usar muitas divs e a tornar o código mais legível e fácil de entender. -->
+     <div id="bola"></div>
+</body>
+</html>
